@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Edit Profile
+{% endblock title %}
+
+{% if user.is_authenticated %}
+    <h1>Edit Profile</h1>
+    <br>
+
+    <div class="form-group">
+        <form action="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Update Profile" class="btn btn-success">
+        </form>
+    </div>
+{% else %}
+    You're not allowed here
+{% endif %}
+{% endblock content %}
