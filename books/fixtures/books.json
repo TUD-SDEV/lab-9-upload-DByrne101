@@ -1,0 +1,35 @@
+[
+    {
+        "model": "books.book",
+        "pk": "6a7c52f0-dd5b-417d-97f9-b68fbc38a010",
+        "fields": {
+            "title": "Lightweight Django",
+            "author": "Julia Elman and Mark Lavin",
+            "price": "34.55",
+            "date_publication": "2014-11-03",
+            "cover": ""
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": "718e145e-6cf7-40e9-8548-7a65f7b78f49",
+        "fields": {
+            "title": "Python Cookbook: Recipes for Mastering Python",
+            "author": "Brian K. Jones",
+            "price": "40.00",
+            "date_publication": "1997-01-21",
+            "cover": "covers/PythonCookbook.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": "8d8abece-67a8-483b-8cfa-e6ff0daca90f",
+        "fields": {
+            "title": "Django Unleashed",
+            "author": "Andrew Prinkham",
+            "price": "31.55",
+            "date_publication": "2015-09-03",
+            "cover": ""
+        }
+    }
+]
